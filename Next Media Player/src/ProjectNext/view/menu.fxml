@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane BorderPane.alignment="CENTER" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="ProjectNext.controller.MenuPaneController">
+    <MenuBar AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0"
+             AnchorPane.topAnchor="0.0">
+        <Menu fx:id="fileMenu" mnemonicParsing="false" text="File">
+            <MenuItem fx:id="fileMenuItem" mnemonicParsing="false" text="Open MP3 file"/>
+            <MenuItem fx:id="dirMenuItem" mnemonicParsing="false" text="Open MP3 Folder"/>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+            <MenuItem fx:id="aboutMenuItem" mnemonicParsing="false" text="About"/>
+        </Menu>
+    </MenuBar>
+</AnchorPane>
